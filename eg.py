@@ -1,0 +1,7 @@
+income=float(input())
+a=float(input())
+b=float(input())
+c=float(input())
+no_weeks=int(input())
+total=(income*no_weeks)-(income*((a+b+c)/100)*no_weeks)
+print(total)
